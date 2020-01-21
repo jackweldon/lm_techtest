@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Groceries.API", "Groceries.API\Groceries.API.csproj", "{EF9AEA3E-2952-4866-A672-95F58B2F0FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groceries.Tests", "..\test\Groceries.Tests\Groceries.Tests.csproj", "{3B514AA7-6DB7-4118-8BA4-A046C7F3E5EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9AEA3E-2952-4866-A672-95F58B2F0FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9AEA3E-2952-4866-A672-95F58B2F0FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9AEA3E-2952-4866-A672-95F58B2F0FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9AEA3E-2952-4866-A672-95F58B2F0FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B514AA7-6DB7-4118-8BA4-A046C7F3E5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B514AA7-6DB7-4118-8BA4-A046C7F3E5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B514AA7-6DB7-4118-8BA4-A046C7F3E5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B514AA7-6DB7-4118-8BA4-A046C7F3E5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6412F8D2-9FAA-47ED-963E-1B0834794BA5}
+	EndGlobalSection
+EndGlobal

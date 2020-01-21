@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+ 
+    <div class="col-12">
+      <app-upload></app-upload>
+    </div>
+    <div class="col-12">
+      <table class="table" *ngIf="items">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Updated </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items"> 
+            <td scope="row">{{item.fruit}}</td>
+            <td *ngIf="item.rowId == editRowId">
+              <input type="text" [(ngModel)]="item.price">
+              <input type="button" class="btn-primary" (click)="updatePrice(item)" value="Save" />
+            </td> 
+            <td>{{item.quantityInStock}}</td>
+            <td>{{item.updatedDateTime}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
